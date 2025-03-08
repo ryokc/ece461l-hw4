@@ -1,0 +1,38 @@
+/* REQUIREMENT: Use a CSS selector to apply style(s) to at least one HTML tag. */
+body {
+    background-color: pink;
+}
+
+/* REQUIREMENT: Create at least one id, apply it to an element, and style it. */
+#myHeader {
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+.text {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    transition: color 1s;
+}
+
+/* REQUIREMENT: Use a CSS selector to change the color of <a> when you hover the cursor over it. */
+a:hover {
+    color: blue;
+}
+
+.center {
+    /* REQUIREMENT: Change at least two box model properties of any tag, class, or id.*/
+    display: block;
+    width: 10%;
+    height: 10%;
+    padding-top: 20pt;
+    margin-left: auto;
+    margin-right: auto;
+}
